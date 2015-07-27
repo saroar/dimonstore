@@ -31,7 +31,7 @@
   border: 2px solid red;
   padding: 1em;
   margin-bottom:2em;
-  background-color: #0f0f0f;
+  background-color: #f0f0f0;
   font: bold smaller sans-serif;
 }
 
@@ -50,7 +50,6 @@
     padding: 1em 2em;
     width: 13em;
     background: #141;
-
     ul {
       padding: 0;
       li {
@@ -60,6 +59,13 @@
           font-size: small;
         }
       }
+    }
+    p {
+      font-size: bold;
+      color: #bfb;
+      margin-bottom: 10px;
+      margin-top: 200px;
+      padding: 0;
     }
   }
 

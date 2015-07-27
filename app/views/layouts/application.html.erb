@@ -13,11 +13,14 @@
   </div>
   <div id="columns">
     <div id="side"> <ul>
-      <li><a href="http://www....">Home</a></li>
+      <li><a href="http://localhost:3000">Home</a></li>
       <li><a href="http://www..../faq">Questions</a></li>
       <li><a href="http://www..../news">News</a></li>
       <li><a href="http://www..../contact">Contact</a></li>
+      <p><%= pluralize session[:counter], 'time' %></p>
+      <p><%= l @date_loaded, :format => :short %></p>
     </ul>
+
   </div>
   <div id="main">
    <%= yield %>
